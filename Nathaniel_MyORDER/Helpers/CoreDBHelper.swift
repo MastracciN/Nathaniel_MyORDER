@@ -49,6 +49,7 @@ class CoreDBHelper: ObservableObject{
                 try self.moc.save()
                 print(#function, "Data is saved successfully")
             }
+            
         }catch let error as NSError{
             print(#function, "Could not save the data \(error)")
         }
@@ -56,7 +57,7 @@ class CoreDBHelper: ObservableObject{
     
     func getAllCoffee(){
         let fetchRequest = NSFetchRequest<CoffeeMO>(entityName: ENTITY_NAME)
-        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "type", ascending: true)]
+        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "date", ascending: true)]
         
         do{
             let result = try self.moc.fetch(fetchRequest)
