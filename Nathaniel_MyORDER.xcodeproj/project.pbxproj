@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D25E0992728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D25E0972728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodeld */; };
+		1D25E09E2728BDC300CCF6B5 /* CoffeeMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25E09D2728BDC300CCF6B5 /* CoffeeMO.swift */; };
+		1D25E0A32728C09800CCF6B5 /* CoreDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D25E0A22728C09800CCF6B5 /* CoreDBHelper.swift */; };
+		1D3F53482728D81300CE0D1E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3F53472728D81300CE0D1E /* Persistence.swift */; };
+		1DE4C1B9270629FA00557610 /* Nathaniel_MyORDERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4C1B8270629FA00557610 /* Nathaniel_MyORDERApp.swift */; };
+		1DE4C1BD270629FC00557610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4C1BC270629FC00557610 /* Assets.xcassets */; };
+		1DE4C1C0270629FC00557610 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE4C1BF270629FC00557610 /* Preview Assets.xcassets */; };
+		1DE4C1CB270629FC00557610 /* Nathaniel_MyORDERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4C1CA270629FC00557610 /* Nathaniel_MyORDERTests.swift */; };
+		1DE4C1D6270629FC00557610 /* Nathaniel_MyORDERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4C1D5270629FC00557610 /* Nathaniel_MyORDERUITests.swift */; };
+		1DE4C1E727062A9E00557610 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4C1E627062A9E00557610 /* Coffee.swift */; };
+		1DE4C1ED27062E0B00557610 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4C1EC27062E0B00557610 /* OrderView.swift */; };
+		1DE4C1F827062E2200557610 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4C1F727062E2200557610 /* DisplayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DE4C1C7270629FC00557610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE4C1AD270629FA00557610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE4C1B4270629FA00557610;
+			remoteInfo = Nathaniel_MyORDER;
+		};
+		1DE4C1D2270629FC00557610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE4C1AD270629FA00557610 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE4C1B4270629FA00557610;
+			remoteInfo = Nathaniel_MyORDER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D25E0982728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nathaniel_MyORDER.xcdatamodel; sourceTree = "<group>"; };
+		1D25E09D2728BDC300CCF6B5 /* CoffeeMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMO.swift; sourceTree = "<group>"; };
+		1D25E0A22728C09800CCF6B5 /* CoreDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDBHelper.swift; sourceTree = "<group>"; };
+		1D3F53472728D81300CE0D1E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1DE4C1B5270629FA00557610 /* Nathaniel_MyORDER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nathaniel_MyORDER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE4C1B8270629FA00557610 /* Nathaniel_MyORDERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nathaniel_MyORDERApp.swift; sourceTree = "<group>"; };
+		1DE4C1BC270629FC00557610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DE4C1BF270629FC00557610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DE4C1C1270629FC00557610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE4C1C6270629FC00557610 /* Nathaniel_MyORDERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nathaniel_MyORDERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE4C1CA270629FC00557610 /* Nathaniel_MyORDERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nathaniel_MyORDERTests.swift; sourceTree = "<group>"; };
+		1DE4C1CC270629FC00557610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE4C1D1270629FC00557610 /* Nathaniel_MyORDERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nathaniel_MyORDERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE4C1D5270629FC00557610 /* Nathaniel_MyORDERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nathaniel_MyORDERUITests.swift; sourceTree = "<group>"; };
+		1DE4C1D7270629FC00557610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE4C1E627062A9E00557610 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		1DE4C1EC27062E0B00557610 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		1DE4C1F727062E2200557610 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DE4C1B2270629FA00557610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE4C1C3270629FC00557610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE4C1CE270629FC00557610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D51864D2729F06A00FFC8FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DE4C1F727062E2200557610 /* DisplayView.swift */,
+				1DE4C1EC27062E0B00557610 /* OrderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D51864E2729F07200FFC8FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D25E0972728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodeld */,
+				1D25E09D2728BDC300CCF6B5 /* CoffeeMO.swift */,
+				1DE4C1E627062A9E00557610 /* Coffee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D51864F2729F07F00FFC8FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1D25E0A22728C09800CCF6B5 /* CoreDBHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1DE4C1AC270629FA00557610 = {
+			isa = PBXGroup;
+			children = (
+				1DE4C1B7270629FA00557610 /* Nathaniel_MyORDER */,
+				1DE4C1C9270629FC00557610 /* Nathaniel_MyORDERTests */,
+				1DE4C1D4270629FC00557610 /* Nathaniel_MyORDERUITests */,
+				1DE4C1B6270629FA00557610 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DE4C1B6270629FA00557610 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE4C1B5270629FA00557610 /* Nathaniel_MyORDER.app */,
+				1DE4C1C6270629FC00557610 /* Nathaniel_MyORDERTests.xctest */,
+				1DE4C1D1270629FC00557610 /* Nathaniel_MyORDERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DE4C1B7270629FA00557610 /* Nathaniel_MyORDER */ = {
+			isa = PBXGroup;
+			children = (
+				1D51864F2729F07F00FFC8FC /* Helpers */,
+				1D51864E2729F07200FFC8FC /* Models */,
+				1D51864D2729F06A00FFC8FC /* Views */,
+				1DE4C1B8270629FA00557610 /* Nathaniel_MyORDERApp.swift */,
+				1DE4C1BC270629FC00557610 /* Assets.xcassets */,
+				1DE4C1C1270629FC00557610 /* Info.plist */,
+				1D3F53472728D81300CE0D1E /* Persistence.swift */,
+				1DE4C1BE270629FC00557610 /* Preview Content */,
+			);
+			path = Nathaniel_MyORDER;
+			sourceTree = "<group>";
+		};
+		1DE4C1BE270629FC00557610 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DE4C1BF270629FC00557610 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DE4C1C9270629FC00557610 /* Nathaniel_MyORDERTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE4C1CA270629FC00557610 /* Nathaniel_MyORDERTests.swift */,
+				1DE4C1CC270629FC00557610 /* Info.plist */,
+			);
+			path = Nathaniel_MyORDERTests;
+			sourceTree = "<group>";
+		};
+		1DE4C1D4270629FC00557610 /* Nathaniel_MyORDERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE4C1D5270629FC00557610 /* Nathaniel_MyORDERUITests.swift */,
+				1DE4C1D7270629FC00557610 /* Info.plist */,
+			);
+			path = Nathaniel_MyORDERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DE4C1B4270629FA00557610 /* Nathaniel_MyORDER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE4C1DA270629FC00557610 /* Build configuration list for PBXNativeTarget "Nathaniel_MyORDER" */;
+			buildPhases = (
+				1DE4C1B1270629FA00557610 /* Sources */,
+				1DE4C1B2270629FA00557610 /* Frameworks */,
+				1DE4C1B3270629FA00557610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nathaniel_MyORDER;
+			productName = Nathaniel_MyORDER;
+			productReference = 1DE4C1B5270629FA00557610 /* Nathaniel_MyORDER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DE4C1C5270629FC00557610 /* Nathaniel_MyORDERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE4C1DD270629FC00557610 /* Build configuration list for PBXNativeTarget "Nathaniel_MyORDERTests" */;
+			buildPhases = (
+				1DE4C1C2270629FC00557610 /* Sources */,
+				1DE4C1C3270629FC00557610 /* Frameworks */,
+				1DE4C1C4270629FC00557610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE4C1C8270629FC00557610 /* PBXTargetDependency */,
+			);
+			name = Nathaniel_MyORDERTests;
+			productName = Nathaniel_MyORDERTests;
+			productReference = 1DE4C1C6270629FC00557610 /* Nathaniel_MyORDERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DE4C1D0270629FC00557610 /* Nathaniel_MyORDERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE4C1E0270629FC00557610 /* Build configuration list for PBXNativeTarget "Nathaniel_MyORDERUITests" */;
+			buildPhases = (
+				1DE4C1CD270629FC00557610 /* Sources */,
+				1DE4C1CE270629FC00557610 /* Frameworks */,
+				1DE4C1CF270629FC00557610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE4C1D3270629FC00557610 /* PBXTargetDependency */,
+			);
+			name = Nathaniel_MyORDERUITests;
+			productName = Nathaniel_MyORDERUITests;
+			productReference = 1DE4C1D1270629FC00557610 /* Nathaniel_MyORDERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DE4C1AD270629FA00557610 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1DE4C1B4270629FA00557610 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1DE4C1C5270629FC00557610 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1DE4C1B4270629FA00557610;
+					};
+					1DE4C1D0270629FC00557610 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 1DE4C1B4270629FA00557610;
+					};
+				};
+			};
+			buildConfigurationList = 1DE4C1B0270629FA00557610 /* Build configuration list for PBXProject "Nathaniel_MyORDER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DE4C1AC270629FA00557610;
+			productRefGroup = 1DE4C1B6270629FA00557610 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DE4C1B4270629FA00557610 /* Nathaniel_MyORDER */,
+				1DE4C1C5270629FC00557610 /* Nathaniel_MyORDERTests */,
+				1DE4C1D0270629FC00557610 /* Nathaniel_MyORDERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DE4C1B3270629FA00557610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE4C1C0270629FC00557610 /* Preview Assets.xcassets in Resources */,
+				1DE4C1BD270629FC00557610 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE4C1C4270629FC00557610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE4C1CF270629FC00557610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DE4C1B1270629FA00557610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3F53482728D81300CE0D1E /* Persistence.swift in Sources */,
+				1DE4C1ED27062E0B00557610 /* OrderView.swift in Sources */,
+				1D25E09E2728BDC300CCF6B5 /* CoffeeMO.swift in Sources */,
+				1D25E0992728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodeld in Sources */,
+				1D25E0A32728C09800CCF6B5 /* CoreDBHelper.swift in Sources */,
+				1DE4C1B9270629FA00557610 /* Nathaniel_MyORDERApp.swift in Sources */,
+				1DE4C1F827062E2200557610 /* DisplayView.swift in Sources */,
+				1DE4C1E727062A9E00557610 /* Coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE4C1C2270629FC00557610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE4C1CB270629FC00557610 /* Nathaniel_MyORDERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DE4C1CD270629FC00557610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE4C1D6270629FC00557610 /* Nathaniel_MyORDERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE4C1C8270629FC00557610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE4C1B4270629FA00557610 /* Nathaniel_MyORDER */;
+			targetProxy = 1DE4C1C7270629FC00557610 /* PBXContainerItemProxy */;
+		};
+		1DE4C1D3270629FC00557610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE4C1B4270629FA00557610 /* Nathaniel_MyORDER */;
+			targetProxy = 1DE4C1D2270629FC00557610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DE4C1D8270629FC00557610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DE4C1D9270629FC00557610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DE4C1DB270629FC00557610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nathaniel_MyORDER/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nathaniel_MyORDER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheridan.Nathaniel-MyORDER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DE4C1DC270629FC00557610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nathaniel_MyORDER/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nathaniel_MyORDER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheridan.Nathaniel-MyORDER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DE4C1DE270629FC00557610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nathaniel_MyORDERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheridan.Nathaniel-MyORDERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nathaniel_MyORDER.app/Nathaniel_MyORDER";
+			};
+			name = Debug;
+		};
+		1DE4C1DF270629FC00557610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nathaniel_MyORDERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheridan.Nathaniel-MyORDERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nathaniel_MyORDER.app/Nathaniel_MyORDER";
+			};
+			name = Release;
+		};
+		1DE4C1E1270629FC00557610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nathaniel_MyORDERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheridan.Nathaniel-MyORDERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nathaniel_MyORDER;
+			};
+			name = Debug;
+		};
+		1DE4C1E2270629FC00557610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nathaniel_MyORDERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sheridan.Nathaniel-MyORDERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nathaniel_MyORDER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DE4C1B0270629FA00557610 /* Build configuration list for PBXProject "Nathaniel_MyORDER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE4C1D8270629FC00557610 /* Debug */,
+				1DE4C1D9270629FC00557610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE4C1DA270629FC00557610 /* Build configuration list for PBXNativeTarget "Nathaniel_MyORDER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE4C1DB270629FC00557610 /* Debug */,
+				1DE4C1DC270629FC00557610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE4C1DD270629FC00557610 /* Build configuration list for PBXNativeTarget "Nathaniel_MyORDERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE4C1DE270629FC00557610 /* Debug */,
+				1DE4C1DF270629FC00557610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DE4C1E0270629FC00557610 /* Build configuration list for PBXNativeTarget "Nathaniel_MyORDERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE4C1E1270629FC00557610 /* Debug */,
+				1DE4C1E2270629FC00557610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D25E0972728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D25E0982728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodel */,
+			);
+			currentVersion = 1D25E0982728BCE000CCF6B5 /* Nathaniel_MyORDER.xcdatamodel */;
+			path = Nathaniel_MyORDER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DE4C1AD270629FA00557610 /* Project object */;
+}
