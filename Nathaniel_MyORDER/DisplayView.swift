@@ -28,6 +28,6 @@ struct DisplayView: View {
 
 struct DisplayView_Previews: PreviewProvider {
     static var previews: some View {
-        DisplayView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        DisplayView()
     }
 }
